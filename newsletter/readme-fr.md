@@ -55,6 +55,7 @@ En utilisant le nouveau bloc minifié, la taille estimée de la newsletter serai
 
 - Nos tests ont montré que la taille de la newsletter pouvait être réduit de plus de `74%` par rapport à la newsletter actuelle
 - La taille total entrerait donc, de justesse, sous les `102 KB` qui déclanchent la coupure de l'email sur Gmail
+- Les images ne fonctionne pas dans la version minifiée, ceci est dû au fonctionnement du processus de minification, qui n'est pas compatible avec le service d'hébérgement utilisé pour les tests, le problème ne sera pas présents en production et n'affecte pas les résultats du tests
 
 ## Pistes pour réduire encore plus la taille
 
