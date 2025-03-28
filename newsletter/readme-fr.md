@@ -35,10 +35,10 @@ Cette version essaie de simuler une newsletter complète, en multipliant le bloc
 
 Cette version utilise une technique appelée la minification, qui permet de supprimer les caractères inutiles comme certains espaces
 
-| Taille du fichier | Fichier                                                                                                                              | Description                             | Réduction |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------- | --------- |
-| 258.691 KB        | [base-big.min.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/base-big.min.html) | Bloc original multiplié 21 fois         | 0%        |
-| 94.3301 KB        | [new-big.min.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/new-big.min.html)   | Nouveau bloc Stratsha multiplié 21 fois | 63.5356%  |
+| Taille du fichier | Fichier                                                                                                                              | Description                                             | Réduction |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- | --------- |
+| 258.691 KB        | [base-big.min.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/base-big.min.html) | Bloc original multiplié 21 fois HTML et minifié         | 0%        |
+| 94.3301 KB        | [new-big.min.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/new-big.min.html)   | Nouveau bloc Stratsha multiplié 21 fois HTML et minifié | 63.5356%  |
 
 ### Analyse
 
