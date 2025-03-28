@@ -14,11 +14,11 @@ Afin de gagner du temps et d'effectuer plus d'itérations, nous avons extrait un
 Commande pour mesurer la taille du fichier :  
 `stat -f "%z" [nom_du_fichier] | awk '{print $1 / 1024 " KB"}'`
 
-| Taille du fichier | Fichier                                                                                                             | Description        | Réduction |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------- | ------------------ | --------- |
-| 18.5977 KB        | [old.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/base.html) | Original block     | 0%        |
-| 7.21289 KB        | [new.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/new.html)  | New Stratsha block | 38.7837%  |
-| 2.03809 KB        | text.txt                                                                                                            | Texte uniquement   | 10.9588%  |
+| Taille du fichier | Fichier                                                                                                             | Description           | Réduction |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------- | --------------------- | --------- |
+| 18.5977 KB        | [old.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/base.html) | Bloc original         | 0%        |
+| 7.21289 KB        | [new.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/new.html)  | Nouveau bloc Stratsha | 38.7837%  |
+| 2.03809 KB        | text.txt                                                                                                            | Texte uniquement      | 10.9588%  |
 
 ### Analyse
 
