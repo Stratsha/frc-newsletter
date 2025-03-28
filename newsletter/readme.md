@@ -16,8 +16,8 @@ File size command: `stat -f "%z" [filename] | awk '{print $1 / 1024 " KB"}'`
 | File Size  | File                                                                                                                | Description        | Reduction |
 | ---------- | ------------------------------------------------------------------------------------------------------------------- | ------------------ | --------- |
 | 18.5977 KB | [old.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/base.html) | Original block     | 0%        |
-| 7.21289 KB | [new.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/new.html)  | New Stratsha block | 38.7837%  |
-| 2.03809 KB | text.txt                                                                                                            | Only text          | 10.9588%  |
+| 7.21289 KB | [new.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/new.html)  | New Stratsha block | 61.2163%  |
+| 2.03809 KB | text.txt                                                                                                            | Only text          | 89.0412%  |
 
 ### Analysis
 
@@ -40,6 +40,6 @@ Using the new block, the estimated newsletter size would be `146.646 KB`.
 
 ## Key Takeaways
 
-- The new block reduces the size by 38.78%, making it significantly smaller than the original block.
+- The new block reduces the size by 61.21%, making it significantly smaller than the original block.
 - Despite the reduction, the email size still exceeds Gmail’s clipping limit by 33%, meaning further adjustments are necessary.
 - To avoid clipping, we may need to simplify the design, reduce text, or cut some accessibility features.

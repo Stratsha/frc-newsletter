@@ -17,8 +17,8 @@ Commande pour mesurer la taille du fichier :
 | Taille du fichier | Fichier                                                                                                             | Description           | Réduction |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------- | --------------------- | --------- |
 | 18.5977 KB        | [old.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/base.html) | Bloc original         | 0%        |
-| 7.21289 KB        | [new.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/new.html)  | Nouveau bloc Stratsha | 38.7837%  |
-| 2.03809 KB        | text.txt                                                                                                            | Texte uniquement      | 10.9588%  |
+| 7.21289 KB        | [new.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/new.html)  | Nouveau bloc Stratsha | 61.2163%  |
+| 2.03809 KB        | text.txt                                                                                                            | Texte uniquement      | 89.0412%  |
 
 ### Analyse
 
@@ -41,6 +41,6 @@ En utilisant le nouveau bloc, la taille estimée de la newsletter serait de `146
 
 ## Points Clés
 
-- Le nouveau bloc réduit la taille de 38.78%, le rendant nettement plus léger que l'ancien bloc.
+- Le nouveau bloc réduit la taille de 61.21%, le rendant nettement plus léger que l'ancien bloc.
 - Malgré cette réduction, la taille de l'email dépasse encore la limite de coupure de Gmail de 33%, ce qui signifie que des ajustements supplémentaires sont nécessaires.
 - Pour éviter la coupure, il pourrait être nécessaire de simplifier le design, réduire la quantité de texte ou supprimer certaines fonctionnalités d'accessibilité.
