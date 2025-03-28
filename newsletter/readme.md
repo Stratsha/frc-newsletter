@@ -13,11 +13,11 @@ To save time and allow for more iterations, we extracted a block from the larges
 
 File size command: `stat -f "%z" [filename] | awk '{print $1 / 1024 " KB"}'`
 
-| File Size  | File      | Description        | Reduction |
-| ---------- | --------- | ------------------ | --------- |
-| 18.5977 KB | base.html | Original block     | 0%        |
-| 7.21289 KB | new.html  | New Stratsha block | 38.7837%  |
-| 2.03809 KB | text.txt  | Only text          | 10.9588%  |
+| File Size  | File                                                                                                                | Description        | Reduction |
+| ---------- | ------------------------------------------------------------------------------------------------------------------- | ------------------ | --------- |
+| 18.5977 KB | [old.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/base.html) | Original block     | 0%        |
+| 7.21289 KB | [new.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/new.html)  | New Stratsha block | 38.7837%  |
+| 2.03809 KB | text.txt                                                                                                            | Only text          | 10.9588%  |
 
 ### Analysis
 
@@ -30,6 +30,13 @@ Since our block size is less than `1 KB` away from this estimate, we can assume 
 
 Using the old block, the estimated newsletter size would be `390.5517 KB`.  
 Using the new block, the estimated newsletter size would be `151.47069 KB`.
+
+_Taking into account html boilerplate_
+
+This test is created by using each block 21 times but including the HTML boilerplate only once. Previous calculations duplicated code that would normally be needed only once.
+
+Using the old block, the estimated newsletter size would be `368.617 KB`.  
+Using the new block, the estimated newsletter size would be `146.646 KB`.
 
 ## Key Takeaways
 
