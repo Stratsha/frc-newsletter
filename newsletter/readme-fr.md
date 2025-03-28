@@ -37,8 +37,8 @@ Cette version utilise une technique appelée la minification, qui permet de supp
 
 | Taille du fichier | Fichier                                                                                                                              | Description                                             | Réduction |
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- | --------- |
-| 258.691 KB        | [base-big.min.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/base-big.min.html) | Bloc original multiplié 21 fois HTML et minifié         | 0%        |
-| 94.3301 KB        | [new-big.min.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/new-big.min.html)   | Nouveau bloc Stratsha multiplié 21 fois HTML et minifié | 63.5356%  |
+| 258.691 KB        | [base-big.min.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/base-big.min.html) | Bloc original multiplié 21 fois et HTML minifié         | 0%        |
+| 94.3301 KB        | [new-big.min.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/new-big.min.html)   | Nouveau bloc Stratsha multiplié 21 fois et HTML minifié | 63.5356%  |
 
 ### Analyse
 
