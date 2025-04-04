@@ -16,29 +16,29 @@ Commande pour mesurer la taille du fichier :
 
 ### Bloc simple
 
-| Taille du fichier | Fichier                                                                                                              | Description           | Réduction |
-| ----------------- | -------------------------------------------------------------------------------------------------------------------- | --------------------- | --------- |
-| 18.5977 KB        | [base.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/base.html) | Bloc original         | 0%        |
-| 7.21289 KB        | [new.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/new.html)   | Nouveau bloc Stratsha | 61.2163%  |
-| 2.03809 KB        | text.txt                                                                                                             | Texte uniquement      | 89.0412%  |
+| Taille du fichier | Fichier                                                                                                                    | Description           | Réduction |
+| ----------------- | -------------------------------------------------------------------------------------------------------------------------- | --------------------- | --------- |
+| 18.5977 KB        | [base.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/study/base.html) | Bloc original         | 0%        |
+| 7.21289 KB        | [new.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/study/new.html)   | Nouveau bloc Stratsha | 61.2163%  |
+| 2.03809 KB        | text.txt                                                                                                                   | Texte uniquement      | 89.0412%  |
 
 ### Newsletter simulée
 
 Cette version essaie de simuler une newsletter complète, en multipliant le bloc jusqu'a atteindre une quantité de contenu qui correspond à la plus grande newsletter existante en notre possession.
 
-| Taille du fichier | Fichier                                                                                                                      | Description                             | Réduction |
-| ----------------- | ---------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- | --------- |
-| 373.715 KB        | [base-big.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/base-big.html) | Bloc original multiplié 21 fois         | 0%        |
-| 146.646 KB        | [new-big.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/new-big.html)   | Nouveau bloc Stratsha multiplié 21 fois | 60.7599%  |
+| Taille du fichier | Fichier                                                                                                                            | Description                             | Réduction |
+| ----------------- | ---------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------- | --------- |
+| 373.715 KB        | [base-big.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/study/base-big.html) | Bloc original multiplié 21 fois         | 0%        |
+| 146.646 KB        | [new-big.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/study/new-big.html)   | Nouveau bloc Stratsha multiplié 21 fois | 60.7599%  |
 
 ### Newsletter complète minifiée
 
 Cette version utilise une technique appelée la minification, qui permet de supprimer les caractères inutiles comme certains espaces
 
-| Taille du fichier | Fichier                                                                                                                              | Description                                             | Réduction |
-| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- | --------- |
-| 258.691 KB        | [base-big.min.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/base-big.min.html) | Bloc original multiplié 21 fois et HTML minifié         | 0%        |
-| 94.3301 KB        | [new-big.min.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/new-big.min.html)   | Nouveau bloc Stratsha multiplié 21 fois et HTML minifié | 63.5356%  |
+| Taille du fichier | Fichier                                                                                                                                    | Description                                             | Réduction |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------- | --------- |
+| 258.691 KB        | [base-big.min.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/study/base-big.min.html) | Bloc original multiplié 21 fois et HTML minifié         | 0%        |
+| 94.3301 KB        | [new-big.min.html](http://htmlpreview.github.io/?https://github.com/Stratsha/frc-newsletter/blob/main/newsletter/study/new-big.min.html)   | Nouveau bloc Stratsha multiplié 21 fois et HTML minifié | 63.5356%  |
 
 ### Analyse
 
