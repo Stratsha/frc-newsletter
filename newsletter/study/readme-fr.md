@@ -42,7 +42,7 @@ Cette version utilise une technique appelée la minification, qui permet de supp
 
 ### Analyse
 
-Les tests sont basés sur une seule section. Puis cette sections est dupliquée pour simuler une newsletter entière. Analysons si les résultats semblent corrects.
+Les tests sont basés sur une seule section. Puis cette section est dupliquée pour simuler une newsletter entière. Analysons si les résultats semblent corrects.
 
 L'"ancien bloc" provient de la plus grande newsletter fournie par le client, à savoir la Newsletter 12, segment 5042.
 
@@ -54,20 +54,20 @@ En utilisant le nouveau bloc minifié, la taille estimée de la newsletter serai
 ## Points Clés
 
 - Nos tests ont montré que la taille de la newsletter pouvait être réduit de plus de `74%` par rapport à la newsletter actuelle
-- La taille total entrerait donc, de justesse, sous les `102 KB` qui déclanchent la coupure de l'email sur Gmail
-- Les images ne fonctionne pas dans la version minifiée, ceci est dû au fonctionnement du processus de minification, qui n'est pas compatible avec le service d'hébérgement utilisé pour les tests, le problème ne sera pas présents en production et n'affecte pas les résultats du tests
+- La taille totale entrerait donc, de justesse, sous les `102 KB` qui déclanchent la coupure de l'email sur Gmail
+- Les images ne s'affichent pas dans la version minifiée, ceci est dû au fonctionnement du processus de minification, qui n'est pas compatible avec le service d'hébérgement utilisé pour les tests, le problème ne sera pas présent en production et n'affecte pas les résultats du tests
 
 ### Pistes pour réduire encore plus la taille
 
-- Le design actuel n'a que très peu simplifié, un design plus simple permettrait de réduire encore plus la taille du fichier
-- L'exemple utilisé était le plus grand disponible, des newsletter plus courte seraient encore plus légères
+- Le design actuel n'a que très peu été simplifié, un design plus simple permettrait de réduire encore plus la taille du fichier
+- L'exemple utilisé était le plus grand disponible, des newsletters plus courte seraient encore plus légères
 
 ### Difficultés possibles
 
-- La nouvelle newsletter à été développée selon les bonnes pratiques actuelles, mais n'a pas été testée sur tous les clients emails, certains ajustements nécéssaire à la bonne lecture de l'email sur les vieux clients peuvent augementer la taille du fichier
+- La nouvelle newsletter à été développée selon les bonnes pratiques actuelles, mais n'a pas été testée sur tous les clients emails, certains ajustements nécéssaires à la bonne lecture de l'email sur les vieux clients peuvent augementer la taille du fichier
 - Les techniques de minifications utilisées altèrent le code HTML, ce qui peut générer des problèmes d'interprétation du code selon les clients emails, des tests supplémentaires devront être effectués afin de valider la solution actuelle
 
 ## Conclusion
 
 Les tests sont concluants, et nous sommes confiants quand à la possibilité d'avoir une newsletter qui ne serait pas coupée par Gmail.  
-Il faut néanmoins prendre en compte le fait que les tests ont été effectués en conditions optimales, et que la réalité du terrains nous contraindra peut-être à faire certains compromis sur le design et le contenu.
+Il faut néanmoins prendre en compte le fait que les tests ont été effectués en conditions optimales, et que la réalité du terrain nous contraindra peut-être à faire certains compromis sur le design et le contenu.
