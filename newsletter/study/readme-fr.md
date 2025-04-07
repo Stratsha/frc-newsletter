@@ -64,7 +64,7 @@ En utilisant le nouveau bloc minifié, la taille estimée de la newsletter serai
 
 ### Difficultés possibles
 
-- La nouvelle newsletter à été développée selon les bonnes pratiques actuelles, mais n'a pas été testée sur tous les clients emails, certains ajustements nécéssaires à la bonne lecture de l'email sur les vieux clients peuvent augementer la taille du fichier
+- La nouvelle newsletter à été développée selon les bonnes pratiques actuelles, mais n'a pas été testée sur tous les clients emails, certains ajustements nécéssaires à la bonne lecture de l'email sur les vieux clients peuvent augmenter la taille du fichier
 - Les techniques de minifications utilisées altèrent le code HTML, ce qui peut générer des problèmes d'interprétation du code selon les clients emails, des tests supplémentaires devront être effectués afin de valider la solution actuelle
 
 ## Conclusion
