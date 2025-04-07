@@ -69,5 +69,5 @@ En utilisant le nouveau bloc minifié, la taille estimée de la newsletter serai
 
 ## Conclusion
 
-Les tests sont concluants, et nous sommes confiants quand à la possibilité d'avoir une newsletter qui ne serait pas coupée par Gmail.  
+Les tests sont concluants, et nous sommes confiants quant à la possibilité d'avoir une newsletter qui ne serait pas coupée par Gmail. 
 Il faut néanmoins prendre en compte le fait que les tests ont été effectués en conditions optimales, et que la réalité du terrain nous contraindra peut-être à faire certains compromis sur le design et le contenu.
